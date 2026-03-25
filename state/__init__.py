@@ -1,1 +1,1 @@
-from .vast import get_vast_offers
+from .snapshots import save_snapshot

@@ -1,7 +1,7 @@
 from providers.vast import get_vast_offers
 from jobs_config import JOBS
 from gpu_arbitrage import evaluate_job
-from launcher import RenderLauncher, maybe_launch_job
+launch_result = maybe_launch_job(job, best_offer, launcher, dry_run=True)
 from settings import RENDER_API_KEY, RENDER_API_BASE
 
 

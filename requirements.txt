@@ -1,0 +1,5 @@
+requests
+hcloud
+vultr-python
+vastai
+python-dotenv
